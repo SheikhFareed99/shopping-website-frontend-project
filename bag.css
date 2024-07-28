@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+   
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    overflow: hidden;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 0px 7px rgb(219, 219, 219);
+
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav1 .logo {
+    width: 60px;
+    height: 45px;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 30px;
+    margin-left: 25px;
+}
+
+.nav-li {
+    font-size: 13px;
+    font-weight: 750;
+    color: rgb(75, 69, 69);
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    width: 350px;
+    height: 39px;
+    padding-left: 40px;
+    margin-right: 15px;
+    background-color: rgb(243, 241, 241);
+    outline: none;
+    border: none;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.search-icon {
+    position: relative;
+    left: -350px;
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+}
+
+.count-item {
+    position: relative; 
+    color: red;
+    border-radius: 50%;
+    top: -40px;
+    left: 8px;
+}
+
+.small {
+    display: flex;
+    gap: 18px;
+}
+
+.small div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.small div a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.small img {
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+.small div span {
+    font-size: 11px;
+    font-weight: bolder;
+    margin-top: 2px;
+}
+
+.nav1 ul li:hover {
+    border-bottom: 4px solid #f54e77;
+}
+
+.nav2 .small div:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.main{
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    
+ 
+}
+
+.bag-card{
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.card1
+{
+    display: flex;
+}
+
+.card1detail
+{
+    margin-top: 16px;
+    width: 50%;
+}
+.name
+{
+    font-weight: 520;
+}
+
+.detail{
+    font-size: 13px;
+}
+.price {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.pre-price {
+    font-size: 10px;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.discount {
+    font-size: 12px;
+    color: red;
+    font-weight: lighter;
+}
+
+.return
+{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.return span{
+    font-size: 13px;
+    font-weight: 700;
+}
+.delivery
+{
+    margin-top: 10px;
+font-size: 13px;
+
+}
+
+.delivery span{
+    font-size: 13px;
+    color: rgb(0, 219, 219);
+    font-weight: bold;
+
+}
+.cardimg {
+    width: 120px;
+    margin: 15px;
+}
+
+.cardimg img {
+    width: 100%;
+}
+
+.crossimg
+{
+    width: 17px;
+    height: 17px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.crossimg img
+{
+    width: 100%;
+}
+
+.card2
+{
+    margin-top: 60px;
+    font-size: 14px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    font-family: sans-serif;
+}
+.amount
+{
+    font-weight: bold;
+}
+.place-order
+{
+    background-color:#ff275d;
+    color: white;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.card2 div
+
+{
+    display: flex;
+    justify-content:space-between;
+}
+hr
+{
+    height: 2px;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+.footer_container {
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footer_column a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
